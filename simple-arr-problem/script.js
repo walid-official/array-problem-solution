@@ -67,13 +67,23 @@
 
 
 
+//map() 
+//*******************
 
+//Task-6
+//******
 
+// ForEach
+//**********
 
+let numbers = [2,4,5,6,7,8];
+let text = "";
 
-
-
-
+function myFunction(value){
+   text += value + '\n'
+}
+ numbers.forEach(myFunction);
+console.log(text);
 
 
 
