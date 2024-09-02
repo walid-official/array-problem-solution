@@ -129,13 +129,48 @@
 //filter-1
 //*******
 
-const numbers = [45, 4, 9, 16, 25];
-const over18 = numbers.filter(myFunction);
+// const numbers = [45, 4, 9, 16, 25];
+// const over18 = numbers.filter(myFunction);
 
-function myFunction(value, index, array) {
-  return value > 10;
-}
-console.log(over18);
+// function myFunction(value, index, array) {
+//   return value > 10;
+// }
+// console.log(over18);
+
+
+//reduce-1
+//*******
+
+// const numbers = [45, 4, 9, 16, 25];
+// let sum = numbers.reduce(myFunction);
+
+// document.getElementById("demo").innerHTML = "The sum is " + sum;
+
+// function myFunction(total, value, index, array) {
+//   return total + value;
+// }
+
+
+
+//reduce-2
+//*******
+
+// const numbers = [45, 4, 9, 16, 25];
+// let sum = numbers.reduce(myFunction);
+
+// document.getElementById("demo").innerHTML = "The sum is " + sum;
+
+// function myFunction(total, value) {
+//   return total + value;
+// }
+
+
+
+
+
+
+
+
 
 
 
@@ -168,39 +203,6 @@ console.log(over18);
 // 5. **Use Case**:
 //    - **`forEach`**: Best used when you need to perform an operation on each element without needing a new array.
 //    - **`map`**: Best used when you want to create a new array from the existing one, with each element transformed by the function.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
