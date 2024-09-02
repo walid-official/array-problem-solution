@@ -67,40 +67,93 @@
 
 
 
-//map() 
-//*******************
+
 
 //Task-6
 //******
 
-// ForEach
+// ForEach-1
 //**********
 
-let numbers = [2,4,5,6,7,8];
-let text = "";
+// let numbers = [2,4,5,6,7,8];
 
-function myFunction(value){
-   text += value + '\n'
-}
- numbers.forEach(myFunction);
-console.log(text);
+// function myFunction(value, index, array){
+//    console.log(value + value);
+//    console.log(index);
+//    console.log(array);
+// }
 
-
-
+// numbers.forEach(myFunction);
 
 
+// ForEach-2
+//**********
+
+// let numbers = [2,4,5,6,7,8];
+// let text = "";
+
+// function myFunction(value){
+//    text += value + '\n'
+// }
+//  numbers.forEach(myFunction);
+// console.log(text);
+
+
+//map-1
+//****
+// let numbers = [2,4,5,6,7,8];
+
+// function myFunction(value, index, array){
+//    console.log(value + value);
+//    console.log(index);
+//    console.log(array);
+// }
+
+// numbers.map(myFunction);
+
+
+
+//map-2
+//****
+
+
+// let numbers = [2,4,5,6,7,8];
+
+
+// function myFunction(value){
+//    return value + 2;
+// }
+// let number = numbers.map(myFunction);
+// console.log(number);
+
+
+
+// map a return kora jai but forEach a 'return' kora jai na ar return korle undefined dakhai. and map akta array return kore but forEach just item ke return kore.
 
 
 
 
+// Here are five key differences between the `forEach` and `map` methods in JavaScript:
 
+// 1. **Purpose**:
+//    - **`forEach`**: Used to iterate over each element in an array and execute a function for each element. It is typically used for side effects (e.g., modifying elements, logging, etc.).
+//    - **`map`**: Also iterates over each element in an array, but it creates a new array with the results of applying a function to each element. It's used when you want to transform the array into a new one.
 
+// 2. **Return Value**:
+//    - **`forEach`**: Does not return anything; it returns `undefined`.
+//    - **`map`**: Returns a new array with the transformed elements.
 
+// 3. **Chaining**:
+//    - **`forEach`**: Since it returns `undefined`, it cannot be chained with other array methods like `filter`, `reduce`, etc.
+//    - **`map`**: Can be chained with other array methods since it returns a new array.
 
+// 4. **Original Array Modification**:
+//    - **`forEach`**: Can modify the original array if the callback function modifies the elements.
+//    - **`map`**: Does not modify the original array; it creates a new array based on the callback function.
 
-
-
-
+// 5. **Use Case**:
+//    - **`forEach`**: Best used when you need to perform an operation on each element without needing a new array.
+//    - **`map`**: Best used when you want to create a new array from the existing one, with each element transformed by the function.
 
 
 
