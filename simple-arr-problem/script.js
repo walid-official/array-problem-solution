@@ -119,12 +119,26 @@
 
 // let numbers = [2,4,5,6,7,8];
 
-
 // function myFunction(value){
 //    return value + 2;
 // }
 // let number = numbers.map(myFunction);
 // console.log(number);
+
+
+//filter-1
+//*******
+
+const numbers = [45, 4, 9, 16, 25];
+const over18 = numbers.filter(myFunction);
+
+function myFunction(value, index, array) {
+  return value > 10;
+}
+console.log(over18);
+
+
+
 
 
 
