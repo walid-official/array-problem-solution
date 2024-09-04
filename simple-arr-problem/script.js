@@ -66,10 +66,81 @@
 // console.log(conc);
 
 
-
-
-
 //Task-6
+//******
+
+// const colors = ['red', 'blue', 'green', 'yellow', 'orange']
+// let reverse_color = [];
+// for(let color of colors){
+//     console.log(color);
+//     reverse_color.unshift(color);
+// }
+// console.log(reverse_color);
+
+
+// const colors = ['red', 'blue', 'green', 'yellow', 'orange'];
+// let reverse_color = [];
+// for(let i = 0; i < colors.length; i++){
+//     console.log(colors[i]);
+//     reverse_color.unshift(colors[i]);
+// }
+
+// console.log(reverse_color);
+
+
+// const colors = ['red', 'blue', 'green', 'yellow', 'orange'];
+
+// for(let i = colors.length -1; i >= 0; i--){
+//     console.log(colors[i]);
+// }
+
+
+//Task-7
+//******
+
+// const numbers = [12, 98, 5, 41, 23, 78, 46];
+// let even_numbers = [];
+// for(let even of numbers){
+//     if(even %2 == 0){
+//         even_numbers.push(even);
+//     }
+// }
+// console.log(even_numbers);
+
+
+//Task-8
+//******
+
+// var str = ['Tom', 'Tim', 'Tin', 'Tik'];
+// let text = ""
+
+// for(let jog of str){
+//     text += jog;
+// } 
+// console.log(text);
+
+
+// var array = ['Tom', 'Tim', 'Tin', 'Tik'];
+// let text = ""
+
+// for(let i = 0; i < array.length; i++){
+//     // text = array[0].concat(array[1],array[2],array[3]);
+//     text += array[i];
+// }
+// console.log(text);
+
+
+//Task-9
+//******
+
+const statement = 'I am a hard working person';
+let array = statement.split(" ").reverse();
+console.log(array);
+let convertStr = array.join(' ');
+console.log(convertStr);
+
+
+//Task-10
 //******
 
 // ForEach-1
